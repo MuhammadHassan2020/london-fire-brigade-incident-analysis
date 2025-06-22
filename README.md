@@ -9,8 +9,6 @@ Three key business problems were addressed:
 2. Which fire station is most likely to respond to a new incident.  
 3. Can incident types (Fire, False Alarm, Special Service) be predicted from early data?
 
----
-
 ## 🧠 Business Problem  
 
 - **Business Problem 1 – Descriptive:**  
@@ -22,15 +20,12 @@ Three key business problems were addressed:
 - **Business Problem 3 – Predictive + Descriptive:**  
   Predict the **type of incident** and analyze the **factors contributing to fire, false alarms, and special services** for improved categorization and decision-making.
 
----
-
 ## 💥 Business Impact  
 - 🚒 Supports **faster and smarter emergency response** by forecasting station dispatch responsibilities.  
 - 🕔 Allows **optimized deployment** during peak hours (e.g., 5–9 PM).  
 - 📊 Enables **data-driven public safety campaigns** and ward-level emergency planning.  
 - 💡 Helps reduce false alarms and improve equipment/resource utilization through intelligent prediction.  
 
----
 
 ## ✅ Solution  
 The project used a full data mining pipeline:
@@ -68,8 +63,8 @@ The project used a full data mining pipeline:
   - Spatial: `WardName`, `Latitude`, `Longitude`  
   - Operational: `PumpCount`, `PumpHours`, `Notional Cost`  
   - Labels: `IncidentGroup`, `IncidentStationGround`
-
----
+## Link of the Dataset
+https://drive.google.com/file/d/1c7ombS0zbwJSKBm3sVD8Jwi834xoYb__/view?usp=sharing
 
 ## 🔍 Key Analysis Steps  
 ✔ Metadata alignment and data type fixing  
@@ -81,20 +76,14 @@ The project used a full data mining pipeline:
 ✔ Descriptive clustering (K=3 and K=6)  
 ✔ Predictive modeling with cross-validation  
 
----
-
 ## 📈 Results Summary  
 - 🔥 Fire incidents peak between **5 PM–9 PM** in Thamesmead East, Slade Green, Belvedere  
 - 🧠 PCA revealed `PumpCount` and `Notional Cost` as key features  
 - 🚓 Predictive modeling accurately classifies **incident types** and **station response zones**  
 - 🗺️ K-Means clusters revealed **high-resource incident groups**
 
----
-
 ## 🔍 Why This Project?  
 I undertook this project to apply **end-to-end data science methodologies** in a **real-world public safety domain**, combining **descriptive analytics** with **predictive power**. The challenge of optimizing emergency services with data is not only technically demanding but also socially impactful.
-
----
 
 ## 🚀 Future Work  
 - 📌 Integrate real-time streaming data for live predictions  
@@ -103,7 +92,6 @@ I undertook this project to apply **end-to-end data science methodologies** in a
 - 🌍 Expand project to other boroughs beyond Bexley  
 - 📊 Use GIS for visualizing and tracking response coverage
 
----
 
 ## 📂 Repository Usage  
 To run or explore this project:
