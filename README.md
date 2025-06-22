@@ -44,7 +44,6 @@ The project used a full data mining pipeline:
 - Incident Type Prediction (Random Forest): **96.3% accuracy**  
 - Fire Station Prediction (RF/XGBoost): **100% balanced accuracy**
 
----
 
 ## 🧰 Tools & Technologies Used  
 - **Languages**: Python  
@@ -53,7 +52,6 @@ The project used a full data mining pipeline:
 - **Platform**: Jupyter Notebook  
 - **Dataset**: London Fire Brigade (2019–2022), Bexley Borough incidents  
 
----
 
 ## 📊 Dataset Information  
 - Source: **London Fire Brigade (LFB)**  
